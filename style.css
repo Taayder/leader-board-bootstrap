@@ -1,0 +1,48 @@
+.course-details {
+    display: flex;
+    align-items: center;
+
+}
+
+.course-details .fa-star {
+    font-size: 12px;
+}
+
+.course-details .fa-star.filled {
+    color: #FFC014;
+}
+
+.course-details .fa-star.empty {
+    color: #AEAEAE;
+    opacity: 0.25;
+}
+
+.course-details p {
+    margin-left: 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #A2A2A2;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    background-color: #FFE4E8;
+    width: 95px;
+    height: 30px;
+    border-radius: 14.6913px;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.time p {
+    font-size: 14px;
+    margin-left: 6px;
+    margin-bottom: 0;
+    color: #FF4A60;
+}
+
+.time .fa-clock {
+    color: #FF4A60;
+}
